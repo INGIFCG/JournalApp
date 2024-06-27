@@ -4,6 +4,10 @@
 
 (Manifest)
 <uses-permission android:name="android.permission.INTERNET" />
+//Para obtener el singin certificate de nuestro proyecto android y agregarlo al momento de crear nuestro proyecto en firebaseFirestore, se puede correr este comando en la terminal 
+./gradlew signingReport /// donde se debera seleccionar el MD5 para agregarlo ahi donde lo solicita la configuracion del firebase
+
+
 
 (GRADLE)
 //Esto se debe colocar en el build gradle de la aplicacion
